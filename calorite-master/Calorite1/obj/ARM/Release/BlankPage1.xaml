@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Calorite1.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calorite1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="640" VerticalAlignment="Bottom" >
+        
+        <TextBlock x:ConnectionId='1' x:Name="Textbox1" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="GOAL" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='2' x:Name="Textbox2" HorizontalAlignment="Center" Margin="0,91,0,0" TextWrapping="Wrap" Text="What is your aim?" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='3' x:Name="button" Content="Lose Weight" HorizontalAlignment="Stretch" Margin="0,240,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='4' x:Name="button1" Content="Maintain Weight" HorizontalAlignment="Stretch" Margin="0,272,0,0" VerticalAlignment="Top"                      />
+        <Button x:ConnectionId='5' x:Name="button2" Content="Gain Weight" HorizontalAlignment="Stretch" Margin="0,304,0,0" VerticalAlignment="Top"                      />
+
+    </Grid>
+</Page>
+

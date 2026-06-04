@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Calorite1.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calorite1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Red">
+        <TextBlock x:Name="textBlock0" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Calories Remaining" VerticalAlignment="Top" Height="69" Width="350" TextAlignment="Center" FontSize="24" Foreground="White"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="69" Width="350" TextAlignment="Center" FontSize="24" Foreground="White"/>
+        <Button x:Name="button" Content="Today's Meal" HorizontalAlignment="Stretch" Margin="0,210,0,0" VerticalAlignment="Top" Click="button_Click1" Foreground="White"/>
+        <Button x:Name="button1" Content="Today's Weight" HorizontalAlignment="Stretch" Margin="0,247,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="button2" Content="Today's Water Consumption" HorizontalAlignment="Stretch" Margin="0,284,0,0" VerticalAlignment="Top" Click="button_Click3" Foreground="White"/>
+        <Button x:Name="button3" Content="Today's Activities" HorizontalAlignment="Stretch" Margin="0,321,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+    </Grid>
+</Page>

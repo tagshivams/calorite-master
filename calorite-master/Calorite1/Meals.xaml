@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Calorite1.Meals"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calorite1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Red">
+        <Button x:Name="button" Content="Done" HorizontalAlignment="Center" Margin="0,553,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="80,10,0,0" TextWrapping="Wrap" Text="Breakfast" VerticalAlignment="Top" FontSize="22" Foreground="White"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="240,10,0,0" TextWrapping="Wrap" Text="Lunch" VerticalAlignment="Top" FontSize="22" Foreground="White"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="80,291,0,0" TextWrapping="Wrap" Text="Dinner" VerticalAlignment="Top" FontSize="22" Foreground="White"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="240,291,0,0" TextWrapping="Wrap" Text="Snacks" VerticalAlignment="Top" FontSize="22" Foreground="White"/>
+        <CheckBox x:Name="checkBox1" Content="Sandwiches" HorizontalAlignment="Left" Margin="61,60,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox2" Content="Aloo Paranthe" HorizontalAlignment="Left" Margin="61,90,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox3" Content="Idli/Dosa" HorizontalAlignment="Left" Margin="61,120,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox4" Content="Bread and Eggs" HorizontalAlignment="Left" Margin="61,150,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox5" Content="CholeBhature" HorizontalAlignment="Left" Margin="220,60,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox6" Content="AlooParata" HorizontalAlignment="Left" Margin="220,90,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox7" Content="Chapati" HorizontalAlignment="Left" Margin="220,120,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox8" Content="Gajar Halwa" HorizontalAlignment="Left" Margin="220,150,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox9" Content="Samosa" HorizontalAlignment="Left" Margin="220,321,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox10" Content="Lays Chips" HorizontalAlignment="Left" Margin="220,351,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox11" Content="Bread Pakoda" HorizontalAlignment="Left" Margin="220,381,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox12" Content="Mango Shake" HorizontalAlignment="Left" Margin="220,411,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox13" Content="Rice" HorizontalAlignment="Left" Margin="60,411,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox14" Content="Kheer" HorizontalAlignment="Left" Margin="60,381,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox15" Content="Curd" HorizontalAlignment="Left" Margin="60,351,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <CheckBox x:Name="checkBox16" Content="Chapati" HorizontalAlignment="Left" Margin="60,321,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Center" Margin="0,488,0,0" TextWrapping="Wrap" Text="(All these are for one unit only.)" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+    </Grid>
+</Page>

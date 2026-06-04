@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Calorite1.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calorite1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:ConnectionId='1' x:Name="inputText" HorizontalAlignment="Center" Margin="270,256,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="What is your height?" VerticalAlignment="Top" Height="22" Margin="30,256,0,0" RenderTransformOrigin="-0.236,2.749" Width="150"/>
+        <Button x:ConnectionId='3' x:Name="retrieveInput" Content="Next" HorizontalAlignment="Center" Margin="0,539,0,0" VerticalAlignment="Top"                      RenderTransformOrigin="0.421,1.614"/>
+        <ComboBox x:ConnectionId='4' x:Name="comboBox1" HorizontalAlignment="Center" Margin="120,256,0,0" VerticalAlignment="Top" Width="43" Height="30" RenderTransformOrigin="0.5,0.5">
+            <ComboBoxItem IsSelected="True">cms</ComboBoxItem>
+            <ComboBoxItem>inches</ComboBoxItem>
+        </ComboBox>
+        <!--<ComboBox.RenderTransform>
+            <CompositeTransform ScaleX="-1" ScaleY="-1"/>
+        </ComboBox.RenderTransform>-->
+
+        <TextBlock x:ConnectionId='5' x:Name="textBlock1" HorizontalAlignment="Left" Margin="30,304,0,0" TextWrapping="Wrap" Text="How much do you weigh?" VerticalAlignment="Top"/>
+        <ComboBox x:ConnectionId='6' x:Name="comboBox2" HorizontalAlignment="Center" Margin="120,301,0,0" VerticalAlignment="Top" Width="43" Height="30">
+            <ComboBoxItem IsSelected="True">kgs</ComboBoxItem>
+            <ComboBoxItem>lbs</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:ConnectionId='7' x:Name="textBox" HorizontalAlignment="Center" Margin="270,299,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-0.463,0.128"/>
+        <RadioButton x:ConnectionId='8' x:Name="radioButton" Content="Male" HorizontalAlignment="Center" Margin="40,392,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:ConnectionId='9' x:Name="radioButton1" Content="Female" HorizontalAlignment="Center" Margin="40,423,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='10' x:Name="textBlock2" HorizontalAlignment="Center" Margin="-150,398,0,0" TextWrapping="Wrap" Text="I am" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='11' x:Name="textBlock3" HorizontalAlignment="Center" Margin="0,480,0,0" TextWrapping="Wrap" Text="We collect this information to give you accurate details about your fitness levels." VerticalAlignment="Top" Width="327" FontSize="12"/>
+        <TextBlock x:ConnectionId='12' x:Name="textBlock4" HorizontalAlignment="Center" Margin="0,145,0,0" TextWrapping="Wrap" Text="When were you born?" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='13' x:Name="textBox1" HorizontalAlignment="Center" Margin="0,70,0,0" TextWrapping="Wrap" Text="You" VerticalAlignment="Top" FontSize="24"/>
+    </Grid>
+</Page>
+
